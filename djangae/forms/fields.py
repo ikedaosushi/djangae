@@ -11,7 +11,7 @@ from django.apps import apps
 from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.safestring import mark_safe
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.contrib.admin.templatetags.admin_static import static
 
 # DJANGAE

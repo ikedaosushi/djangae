@@ -4,7 +4,7 @@ import django
 from django.contrib.admindocs import views as admindocs_views
 from django.contrib.admindocs import utils as admindocs_utils
 from django.core.exceptions import ViewDoesNotExist
-from django.core.urlresolvers import RegexURLPattern, RegexURLResolver
+from django.urls import RegexURLPattern, RegexURLResolver
 
 
 def extract_views_from_urlpatterns(urlpatterns, base='', namespace=None, ignored_modules=None):
